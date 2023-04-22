@@ -15,7 +15,8 @@ class twoDArray {
                     "Continue for the program (y/n): ");
             choice = sc.nextLine();
 
-            if (choice.equaks("n"){
+            if (choice.equals("n")) {
+                endOfProgram = true;
                 break;
             }
         }
